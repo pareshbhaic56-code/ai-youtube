@@ -1,0 +1,28 @@
+# AI YouTube Studio Backend
+
+## Version
+
+1.0.0
+
+## Features
+
+- AI Script Generator
+- AI Video Generator
+- AI Thumbnail Generator
+- AI Voice Generator
+- YouTube Upload
+- Analytics
+- User Login
+- Settings
+- Trending Topics
+- Backend API
+
+## Start
+
+npm install
+
+npm start
+
+## Developer
+
+AI YouTube Studio
