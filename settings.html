@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Settings</title>
+
+<link rel="stylesheet" href="settings.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>⚙️ Settings</h1>
+
+<label>Channel Name</label>
+
+<input type="text" id="channel" placeholder="Enter Channel Name">
+
+<label>Default Language</label>
+
+<input type="text" id="language" placeholder="English">
+
+<label>Upload Privacy</label>
+
+<select id="privacy">
+
+<option>Public</option>
+
+<option>Private</option>
+
+<option>Unlisted</option>
+
+</select>
+
+<button onclick="saveSettings()">
+
+Save Settings
+
+</button>
+
+<div id="status">
+
+Settings Not Saved
+
+</div>
+
+<a href="dashboard.html">
+
+<button>
+
+⬅ Back Dashboard
+
+</button>
+
+</a>
+
+</div>
+
+<script src="settings.js"></script>
+
+</body>
+
+</html>
