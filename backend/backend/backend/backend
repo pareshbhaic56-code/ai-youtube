@@ -1,0 +1,35 @@
+class YouTubeService{
+
+async uploadVideo(title,description){
+
+return{
+
+success:true,
+
+message:"Demo Upload Successful",
+
+title:title,
+
+description:description
+
+};
+
+}
+
+async getAnalytics(){
+
+return{
+
+views:120000,
+
+subscribers:5000,
+
+videos:25
+
+};
+
+}
+
+}
+
+module.exports=new YouTubeService();
