@@ -1,21 +1,56 @@
-function generateScript(){
+<!DOCTYPE html>
+<html lang="en">
 
-let topic = document.getElementById("topic").value;
+<head>
 
-if(topic==""){
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-alert("Please enter a topic");
+<title>AI Video Generator</title>
 
-return;
+<link rel="stylesheet" href="video-generator.css">
 
-}
+</head>
 
-document.getElementById("output").innerHTML =
+<body>
 
-"<h3>Topic:</h3><p>"+topic+"</p>" +
+<div class="container">
 
-"<h3>Demo Script</h3>" +
+<h1>🎥 AI Video Generator</h1>
 
-"<p>Hello everyone! Welcome to our YouTube channel. Today we are talking about <b>"+topic+"</b>. In this video you will learn everything step by step. If you enjoy this video, like, share and subscribe for more content.</p>";
+<p>Enter your video topic</p>
 
-}
+<input
+type="text"
+id="videoTopic"
+placeholder="Example: AI Business Ideas">
+
+<button onclick="generateVideo()">
+
+Generate Video
+
+</button>
+
+<div id="videoOutput">
+
+Your AI Video Preview Will Appear Here...
+
+</div>
+
+<a href="dashboard.html">
+
+<button>
+
+⬅ Back to Dashboard
+
+</button>
+
+</a>
+
+</div>
+
+<script src="video-generator.js"></script>
+
+</body>
+
+</html>
